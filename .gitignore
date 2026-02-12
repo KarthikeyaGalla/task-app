@@ -1,0 +1,15 @@
+
+# Dependencies
+node_modules
+dist
+
+# Environment
+.env
+.env.*
+
+# Secrets (Google Cloud & Spreadsheets)
+*.json
+!package.json
+!package-lock.json
+!client/package.json
+!server/package.json
